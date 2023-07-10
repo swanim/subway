@@ -1,3 +1,70 @@
+# 지하철 유동인구 분석 웹사이트
+
+
+# 개요
+
+
+서울시 지하철 유동인구 데이터를 활용하여 지하철 유동인구 분석 웹사이트 구현
+- [일별 데이터](https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do)
+- [시간대별 데이터](https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do)
+
+위 두 데이터를 활용하여 지하철 유동인구를 분석 및 시각화
+
+
+## 기대효과
+- 지하철 유동인구 분석을 통해 지하철 유동인구에 따른 상권 분석
+- 출퇴근 시간에 유동인구가 많은 지하철역을 인지하여, 인프라 개선 
+
+## 시연
+
+https://user-images.githubusercontent.com/43350428/236599476-24bc3b55-5cfb-4952-aead-6fdbc110ead6.mp4
+
+
+
+
+## 팀 구성
+|    | 이동수 | 최민수 | 박주미 | 전성현 | 명우성 |
+| :---: | :---: | :---: | :---: | :---: |:---: |
+| 역할 | PM <br> 백엔드 | 크롤러 자동화 <br> 백엔드 | 프론트엔드 <br> 백엔드 | DB 구축 <br> 데이터 적재 | 데이터 분석 <br> 시각화 |
+|GitHub| [@TonysHub](https://github.com/TonysHub) | [@usiohc](https://github.com/usiohc) | [@swanim](https://github.com/swanim) | [@Jeon-peng](https://github.com/Jeon-peng) | [@LameloBally](https://github.com/LameloBally)
+
+
+# Tech
+
+| 분야  | Tools  |  
+| ---- | ---- |
+| 프론트엔드 | <img src="https://img.shields.io/badge/html-F05132?style=for-the-badge&logo=html5&logoColor=black"> <img src="https://img.shields.io/badge/css-61DAFB?style=for-the-badge&logo=css3&logoColor=black"> | 
+| 백엔드 | <img src="https://img.shields.io/badge/Django-173B0B?style=for-the-badge&logo=django&logoColor=white"> |
+| 데이터베이스 | <img src="https://img.shields.io/badge/sqlite-4479A1?style=for-the-badge&logo=sqlite&logoColor=white">  |
+| 크롤링 | <img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+| 분석 & 시각화 | <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white">
+| 코드 관리 |  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> |
+
+## Database
+
+## 구조
+
+![Screenshot 2023-05-06 at 1 19 24 PM](https://user-images.githubusercontent.com/43350428/236599483-acad43a9-97ee-40cc-926c-f5143bf107ea.png)
+
+
+### index
+![Screenshot 2023-05-06 at 1 22 33 PM](https://user-images.githubusercontent.com/43350428/236599564-62595650-8baf-4e9e-b83c-6c37a55cae72.png)
+
+ 
+### line_details
+![Screenshot 2023-05-06 at 1 22 50 PM](https://user-images.githubusercontent.com/43350428/236599577-7dc44a34-cc91-49dd-bd9c-62f5e0f10dd6.png)
+
+
+### station_details
+![Screenshot 2023-05-06 at 1 23 07 PM](https://user-images.githubusercontent.com/43350428/236599584-0dfb2b00-4c4c-4567-ab27-8c5773d6dc99.png)
+
+
+### Database ERD
+![image](https://user-images.githubusercontent.com/70497132/236601348-b0760061-341a-40ed-849a-698d55bee7fc.png)
+
+
+<br><br><br>
+
 # Setting up Python version to 3.10.0
 
 Check if you have pyenv installed
